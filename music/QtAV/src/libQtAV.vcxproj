@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F8720075-6D88-3EA8-AD47-B6680A6C1869}</ProjectGuid>
+    <RootNamespace>QtAV</RootNamespace>
+    <Keyword>Qt4VSv1.0</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;" Label="Configuration">
+    <OutputDirectory>E:\Code\QtOpenSource\??\QtAV\lib_win_\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <IntermediateDirectory>E:\Code\QtOpenSource\??\QtAV\.obj\QtAV_win_\</IntermediateDirectory>
+    <PrimaryOutput>QtAV1</PrimaryOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;" Label="Configuration">
+    <OutputDirectory>E:\Code\QtOpenSource\??\QtAV\lib_win_\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <IntermediateDirectory>E:\Code\QtOpenSource\??\QtAV\.obj\QtAVd_win_\</IntermediateDirectory>
+    <PrimaryOutput>QtAVd1</PrimaryOutput>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists(&apos;$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props&apos;)" />
+  </ImportGroup>
+  <ImportGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists(&apos;$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props&apos;)" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\lib_win_\</OutDir>
+    <IntDir Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.obj\QtAV_win_\</IntDir>
+    <TargetName Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">QtAV1</TargetName>
+    <IgnoreImportLibrary Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</IgnoreImportLibrary>
+    <LinkIncremental Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">false</LinkIncremental>
+    <PostBuildEventUseInBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</PostBuildEventUseInBuild>
+    <OutDir Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\lib_win_\</OutDir>
+    <IntDir Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.obj\QtAVd_win_\</IntDir>
+    <TargetName Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">QtAVd1</TargetName>
+    <IgnoreImportLibrary Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</IgnoreImportLibrary>
+    <PostBuildEventUseInBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">
+    <ClCompile>
+      <AdditionalIncludeDirectories>&quot;$(QTDIR)\include&quot;;&quot;.&quot;;&quot;E:\Code\QtOpenSource\music\QtAV&quot;;&quot;QtAV&quot;;&quot;..\contrib\uchardet\src&quot;;&quot;..\contrib\capi&quot;;&quot;..\contrib\dxsdk&quot;;&quot;compat\msvc&quot;;&quot;cuda&quot;;&quot;cuda\dllapi&quot;;&quot;$(QTDIR)\include\QtGui&quot;;&quot;$(QTDIR)\include\QtANGLE&quot;;&quot;$(QTDIR)\include\QtCore&quot;;&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot;;$(QTDIR)\mkspecs\win32-msvc2010;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zm200 -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>E:\Code\QtOpenSource\??\QtAV\.obj\QtAV_win_\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>E:\Code\QtOpenSource\??\QtAV\.obj\QtAV_win_\</ObjectFileName>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;_CRT_SECURE_NO_WARNINGS;BUILD_QTAV_LIB;BUILD_UCHARDET;QTAV_HAVE_CAPI=1;QTAV_HAVE_EGL_CAPI=1;__STDC_CONSTANT_MACROS;QTAV_HAVE_XAUDIO2=1;QTAV_HAVE_CUDA=1;QTAV_HAVE_QT_EGL=1;QT_NO_DEBUG;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_ES_2;QT_OPENGL_ES_2_ANGLE;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>ole32.lib;avcodec.lib;avformat.lib;swscale.lib;avutil.lib;$(QTDIR)\lib\Qt5Gui.lib;$(QTDIR)\lib\Qt5Core.lib;libEGL.lib;libGLESv2.lib;gdi32.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib;libcmtd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <LinkDLL>true</LinkDLL>
+      <LinkIncremental>false</LinkIncremental>
+      <OutputFile>$(OutDir)\QtAV1.dll</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <Version>1.120</Version>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;_CRT_SECURE_NO_WARNINGS;BUILD_QTAV_LIB;BUILD_UCHARDET;QTAV_HAVE_CAPI=1;QTAV_HAVE_EGL_CAPI=1;__STDC_CONSTANT_MACROS;QTAV_HAVE_XAUDIO2=1;QTAV_HAVE_CUDA=1;QTAV_HAVE_QT_EGL=1;QT_NO_DEBUG;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_ES_2;QT_OPENGL_ES_2_ANGLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>copy  &quot;$(TargetPath)&quot; &quot;E:\Code\QtOpenSource\??\QtAV\bin&quot;</Command>
+      <Message>Copy QtAV1.dll to E:\Code\QtOpenSource\??\QtAV\bin</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">
+    <ClCompile>
+      <AdditionalIncludeDirectories>&quot;$(QTDIR)\include&quot;;&quot;.&quot;;&quot;E:\Code\QtOpenSource\music\QtAV&quot;;&quot;QtAV&quot;;&quot;..\contrib\uchardet\src&quot;;&quot;..\contrib\capi&quot;;&quot;..\contrib\dxsdk&quot;;&quot;compat\msvc&quot;;&quot;cuda&quot;;&quot;cuda\dllapi&quot;;&quot;$(QTDIR)\include\QtGui&quot;;&quot;$(QTDIR)\include\QtANGLE&quot;;&quot;$(QTDIR)\include\QtCore&quot;;&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot;;$(QTDIR)\mkspecs\win32-msvc2010;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zm200 -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>E:\Code\QtOpenSource\??\QtAV\.obj\QtAVd_win_\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>E:\Code\QtOpenSource\??\QtAV\.obj\QtAVd_win_\</ObjectFileName>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;DEBUG;_CRT_SECURE_NO_WARNINGS;BUILD_QTAV_LIB;BUILD_UCHARDET;QTAV_HAVE_CAPI=1;QTAV_HAVE_EGL_CAPI=1;__STDC_CONSTANT_MACROS;QTAV_HAVE_XAUDIO2=1;QTAV_HAVE_CUDA=1;QTAV_HAVE_QT_EGL=1;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_ES_2;QT_OPENGL_ES_2_ANGLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>ole32.lib;avcodec.lib;avformat.lib;swscale.lib;avutil.lib;$(QTDIR)\lib\Qt5Guid.lib;$(QTDIR)\lib\Qt5Cored.lib;libEGLd.lib;libGLESv2d.lib;gdi32.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib;libcmtd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <LinkDLL>true</LinkDLL>
+      <OutputFile>$(OutDir)\QtAVd1.dll</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <Version>1.120</Version>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;DEBUG;_CRT_SECURE_NO_WARNINGS;BUILD_QTAV_LIB;BUILD_UCHARDET;QTAV_HAVE_CAPI=1;QTAV_HAVE_EGL_CAPI=1;__STDC_CONSTANT_MACROS;QTAV_HAVE_XAUDIO2=1;QTAV_HAVE_CUDA=1;QTAV_HAVE_QT_EGL=1;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_ES_2;QT_OPENGL_ES_2_ANGLE;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>copy  &quot;$(TargetPath)&quot; &quot;E:\Code\QtOpenSource\??\QtAV\bin&quot;</Command>
+      <Message>Copy QtAVd1.dll to E:\Code\QtOpenSource\??\QtAV\bin</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AVClock.cpp" />
+    <ClCompile Include="AVCompat.cpp" />
+    <ClCompile Include="codec\AVDecoder.cpp" />
+    <ClCompile Include="AVDemuxThread.cpp" />
+    <ClCompile Include="AVDemuxer.cpp" />
+    <ClCompile Include="codec\AVEncoder.cpp" />
+    <ClCompile Include="AVError.cpp" />
+    <ClCompile Include="AVMuxer.cpp" />
+    <ClCompile Include="output\AVOutput.cpp" />
+    <ClCompile Include="AVPlayer.cpp" />
+    <ClCompile Include="AVPlayerPrivate.cpp" />
+    <ClCompile Include="AVThread.cpp" />
+    <ClCompile Include="AVTranscoder.cpp" />
+    <ClCompile Include="codec\audio\AudioDecoder.cpp" />
+    <ClCompile Include="codec\audio\AudioDecoderFFmpeg.cpp" />
+    <ClCompile Include="codec\audio\AudioEncoder.cpp" />
+    <ClCompile Include="codec\audio\AudioEncoderFFmpeg.cpp" />
+    <ClCompile Include="AudioFormat.cpp" />
+    <ClCompile Include="AudioFrame.cpp" />
+    <ClCompile Include="output\audio\AudioOutput.cpp" />
+    <ClCompile Include="output\audio\AudioOutputBackend.cpp" />
+    <ClCompile Include="output\audio\AudioOutputNull.cpp" />
+    <ClCompile Include="output\audio\AudioOutputXAudio2.cpp" />
+    <ClCompile Include="AudioResampler.cpp" />
+    <ClCompile Include="AudioResamplerTemplate.cpp" />
+    <ClCompile Include="AudioThread.cpp" />
+    <ClCompile Include="..\contrib\uchardet\src\CharDistribution.cpp" />
+    <ClCompile Include="subtitle\CharsetDetector.cpp" />
+    <ClCompile Include="ColorTransform.cpp" />
+    <ClCompile Include="opengl\ConvolutionShader.cpp" />
+    <ClCompile Include="utils\DirectXHelper.cpp" />
+    <ClCompile Include="filter\EncodeFilter.cpp" />
+    <ClCompile Include="filter\Filter.cpp" />
+    <ClCompile Include="filter\FilterContext.cpp" />
+    <ClCompile Include="filter\FilterManager.cpp" />
+    <ClCompile Include="Frame.cpp" />
+    <ClCompile Include="FrameReader.cpp" />
+    <ClCompile Include="filter\GLSLFilter.cpp" />
+    <ClCompile Include="utils\GPUMemCopy.cpp" />
+    <ClCompile Include="opengl\Geometry.cpp" />
+    <ClCompile Include="opengl\GeometryRenderer.cpp" />
+    <ClCompile Include="ImageConverter.cpp" />
+    <ClCompile Include="ImageConverterFF.cpp" />
+    <ClCompile Include="..\contrib\uchardet\src\JpCntx.cpp" />
+    <ClCompile Include="..\contrib\uchardet\src\LangBulgarianModel.cpp" />
+    <ClCompile Include="..\contrib\uchardet\src\LangCyrillicModel.cpp" />
+    <ClCompile Include="..\contrib\uchardet\src\LangGreekModel.cpp" />
+    <ClCompile Include="..\contrib\uchardet\src\LangHebrewModel.cpp" />
+    <ClCompile Include="..\contrib\uchardet\src\LangHungarianModel.cpp" />
+    <ClCompile Include="..\contrib\uchardet\src\LangThaiModel.cpp" />
+    <ClCompile Include="filter\LibAVFilter.cpp" />
+    <ClCompile Include="utils\Logger.cpp" />
+    <ClCompile Include="io\MediaIO.cpp" />
+    <ClCompile Include="opengl\OpenGLHelper.cpp" />
+    <ClCompile Include="output\video\OpenGLRendererBase.cpp" />
+    <ClCompile Include="opengl\OpenGLTypes.cpp" />
+    <ClCompile Include="opengl\OpenGLVideo.cpp" />
+    <ClCompile Include="output\OutputSet.cpp" />
+    <ClCompile Include="Packet.cpp" />
+    <ClCompile Include="PacketBuffer.cpp" />
+    <ClCompile Include="subtitle\PlainText.cpp" />
+    <ClCompile Include="subtitle\PlayerSubtitle.cpp" />
+    <ClCompile Include="io\QIODeviceIO.cpp" />
+    <ClCompile Include="output\video\QPainterRenderer.cpp" />
+    <ClCompile Include="QtAV_Global.cpp" />
+    <ClCompile Include="opengl\ShaderManager.cpp" />
+    <ClCompile Include="Statistics.cpp" />
+    <ClCompile Include="subtitle\SubImage.cpp" />
+    <ClCompile Include="opengl\SubImagesGeometry.cpp" />
+    <ClCompile Include="opengl\SubImagesRenderer.cpp" />
+    <ClCompile Include="subtitle\Subtitle.cpp" />
+    <ClCompile Include="filter\SubtitleFilter.cpp" />
+    <ClCompile Include="subtitle\SubtitleProcessor.cpp" />
+    <ClCompile Include="subtitle\SubtitleProcessorFFmpeg.cpp" />
+    <ClCompile Include="codec\video\SurfaceInteropCUDA.cpp" />
+    <ClCompile Include="directx\SurfaceInteropD3D9.cpp" />
+    <ClCompile Include="directx\SurfaceInteropD3D9EGL.cpp" />
+    <ClCompile Include="VideoCapture.cpp" />
+    <ClCompile Include="codec\video\VideoDecoder.cpp" />
+    <ClCompile Include="codec\video\VideoDecoderCUDA.cpp" />
+    <ClCompile Include="codec\video\VideoDecoderFFmpeg.cpp" />
+    <ClCompile Include="codec\video\VideoDecoderFFmpegBase.cpp" />
+    <ClCompile Include="codec\video\VideoDecoderFFmpegHW.cpp" />
+    <ClCompile Include="codec\video\VideoEncoder.cpp" />
+    <ClCompile Include="codec\video\VideoEncoderFFmpeg.cpp" />
+    <ClCompile Include="VideoFormat.cpp" />
+    <ClCompile Include="VideoFrame.cpp" />
+    <ClCompile Include="VideoFrameExtractor.cpp" />
+    <ClCompile Include="output\video\VideoOutput.cpp" />
+    <ClCompile Include="output\video\VideoRenderer.cpp" />
+    <ClCompile Include="opengl\VideoShader.cpp" />
+    <ClCompile Include="opengl\VideoShaderObject.cpp" />
+    <ClCompile Include="VideoThread.cpp" />
+    <ClCompile Include="cuda\cuda_api.cpp" />
+    <ClCompile Include="capi\egl_api.cpp" />
+    <ClCompile Include="opengl\gl_api.cpp" />
+    <ClCompile Include="utils\internal.cpp" />
+    <ClCompile Include="..\contrib\uchardet\src\nsBig5Prober.cpp" />
+    <ClCompile Include="..\contrib\uchardet\src\nsCharSetProber.cpp" />
+    <ClCompile Include="..\contrib\uchardet\src\nsEUCJPProber.cpp" />
+    <ClCompile Include="..\contrib\uchardet\src\nsEUCKRProber.cpp" />
+    <ClCompile Include="..\contrib\uchardet\src\nsEUCTWProber.cpp" />
+    <ClCompile Include="..\contrib\uchardet\src\nsEscCharsetProber.cpp" />
+    <ClCompile Include="..\contrib\uchardet\src\nsEscSM.cpp" />
+    <ClCompile Include="..\contrib\uchardet\src\nsGB2312Prober.cpp" />
+    <ClCompile Include="..\contrib\uchardet\src\nsHebrewProber.cpp" />
+    <ClCompile Include="..\contrib\uchardet\src\nsLatin1Prober.cpp" />
+    <ClCompile Include="..\contrib\uchardet\src\nsMBCSGroupProber.cpp" />
+    <ClCompile Include="..\contrib\uchardet\src\nsMBCSSM.cpp" />
+    <ClCompile Include="..\contrib\uchardet\src\nsSBCSGroupProber.cpp" />
+    <ClCompile Include="..\contrib\uchardet\src\nsSBCharSetProber.cpp" />
+    <ClCompile Include="..\contrib\uchardet\src\nsSJISProber.cpp" />
+    <ClCompile Include="..\contrib\uchardet\src\nsUTF8Prober.cpp" />
+    <ClCompile Include="..\contrib\uchardet\src\nsUniversalDetector.cpp" />
+    <ClCompile Include="..\contrib\uchardet\src\uchardet.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="QtAV\AVClock.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">QtAV\AVClock.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\AVClock.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AVClock.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC QtAV\AVClock.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AVClock.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">QtAV\AVClock.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\AVClock.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AVClock.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC QtAV\AVClock.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AVClock.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="QtAV\private\AVCompat.h" />
+    <CustomBuild Include="QtAV\AVDecoder.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">QtAV\AVDecoder.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\AVDecoder.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AVDecoder.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC QtAV\AVDecoder.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AVDecoder.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">QtAV\AVDecoder.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\AVDecoder.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AVDecoder.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC QtAV\AVDecoder.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AVDecoder.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="QtAV\private\AVDecoder_p.h" />
+    <CustomBuild Include="AVDemuxThread.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">AVDemuxThread.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 AVDemuxThread.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AVDemuxThread.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC AVDemuxThread.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AVDemuxThread.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">AVDemuxThread.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 AVDemuxThread.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AVDemuxThread.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC AVDemuxThread.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AVDemuxThread.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="QtAV\AVDemuxer.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">QtAV\AVDemuxer.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\AVDemuxer.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AVDemuxer.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC QtAV\AVDemuxer.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AVDemuxer.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">QtAV\AVDemuxer.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\AVDemuxer.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AVDemuxer.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC QtAV\AVDemuxer.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AVDemuxer.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="QtAV\AVEncoder.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">QtAV\AVEncoder.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\AVEncoder.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AVEncoder.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC QtAV\AVEncoder.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AVEncoder.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">QtAV\AVEncoder.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\AVEncoder.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AVEncoder.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC QtAV\AVEncoder.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AVEncoder.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="QtAV\private\AVEncoder_p.h" />
+    <ClInclude Include="QtAV\AVError.h" />
+    <CustomBuild Include="QtAV\AVMuxer.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">QtAV\AVMuxer.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\AVMuxer.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AVMuxer.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC QtAV\AVMuxer.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AVMuxer.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">QtAV\AVMuxer.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\AVMuxer.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AVMuxer.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC QtAV\AVMuxer.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AVMuxer.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="QtAV\AVOutput.h" />
+    <ClInclude Include="QtAV\private\AVOutput_p.h" />
+    <CustomBuild Include="QtAV\AVPlayer.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">QtAV\AVPlayer.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\AVPlayer.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AVPlayer.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC QtAV\AVPlayer.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AVPlayer.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">QtAV\AVPlayer.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\AVPlayer.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AVPlayer.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC QtAV\AVPlayer.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AVPlayer.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="AVPlayerPrivate.h" />
+    <CustomBuild Include="AVThread.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">AVThread.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 AVThread.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AVThread.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC AVThread.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AVThread.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">AVThread.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 AVThread.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AVThread.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC AVThread.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AVThread.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="AVThread_p.h" />
+    <CustomBuild Include="QtAV\AVTranscoder.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">QtAV\AVTranscoder.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\AVTranscoder.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AVTranscoder.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC QtAV\AVTranscoder.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AVTranscoder.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">QtAV\AVTranscoder.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\AVTranscoder.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AVTranscoder.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC QtAV\AVTranscoder.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AVTranscoder.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="QtAV\AudioDecoder.h" />
+    <CustomBuild Include="QtAV\AudioEncoder.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">QtAV\AudioEncoder.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\AudioEncoder.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AudioEncoder.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC QtAV\AudioEncoder.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AudioEncoder.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">QtAV\AudioEncoder.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\AudioEncoder.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AudioEncoder.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC QtAV\AudioEncoder.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AudioEncoder.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="QtAV\AudioFormat.h" />
+    <ClInclude Include="QtAV\AudioFrame.h" />
+    <CustomBuild Include="QtAV\AudioOutput.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">QtAV\AudioOutput.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\AudioOutput.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AudioOutput.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC QtAV\AudioOutput.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AudioOutput.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">QtAV\AudioOutput.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\AudioOutput.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AudioOutput.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC QtAV\AudioOutput.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AudioOutput.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="QtAV\private\AudioOutputBackend.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">QtAV\private\AudioOutputBackend.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\private\AudioOutputBackend.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AudioOutputBackend.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC QtAV\private\AudioOutputBackend.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AudioOutputBackend.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">QtAV\private\AudioOutputBackend.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\private\AudioOutputBackend.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AudioOutputBackend.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC QtAV\private\AudioOutputBackend.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AudioOutputBackend.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="QtAV\AudioResampler.h" />
+    <ClInclude Include="QtAV\private\AudioResampler_p.h" />
+    <CustomBuild Include="AudioThread.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">AudioThread.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 AudioThread.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AudioThread.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC AudioThread.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AudioThread.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">AudioThread.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 AudioThread.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AudioThread.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC AudioThread.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AudioThread.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="utils\BlockingQueue.h" />
+    <ClInclude Include="..\contrib\uchardet\src\CharDistribution.h" />
+    <ClInclude Include="subtitle\CharsetDetector.h" />
+    <ClInclude Include="ColorTransform.h" />
+    <ClInclude Include="QtAV\ConvolutionShader.h" />
+    <ClInclude Include="utils\DirectXHelper.h" />
+    <CustomBuild Include="QtAV\EncodeFilter.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">QtAV\EncodeFilter.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\EncodeFilter.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_EncodeFilter.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC QtAV\EncodeFilter.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_EncodeFilter.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">QtAV\EncodeFilter.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\EncodeFilter.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_EncodeFilter.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC QtAV\EncodeFilter.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_EncodeFilter.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="QtAV\FactoryDefine.h" />
+    <CustomBuild Include="QtAV\Filter.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">QtAV\Filter.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\Filter.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_Filter.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC QtAV\Filter.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_Filter.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">QtAV\Filter.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\Filter.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_Filter.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC QtAV\Filter.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_Filter.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="QtAV\FilterContext.h" />
+    <ClInclude Include="filter\FilterManager.h" />
+    <ClInclude Include="QtAV\private\Filter_p.h" />
+    <ClInclude Include="QtAV\Frame.h" />
+    <CustomBuild Include="QtAV\FrameReader.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">QtAV\FrameReader.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\FrameReader.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_FrameReader.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC QtAV\FrameReader.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_FrameReader.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">QtAV\FrameReader.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\FrameReader.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_FrameReader.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC QtAV\FrameReader.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_FrameReader.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="QtAV\private\Frame_p.h" />
+    <CustomBuild Include="QtAV\GLSLFilter.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">QtAV\GLSLFilter.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\GLSLFilter.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_GLSLFilter.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC QtAV\GLSLFilter.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_GLSLFilter.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">QtAV\GLSLFilter.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\GLSLFilter.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_GLSLFilter.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC QtAV\GLSLFilter.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_GLSLFilter.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="utils\GPUMemCopy.h" />
+    <ClInclude Include="QtAV\Geometry.h" />
+    <ClInclude Include="QtAV\GeometryRenderer.h" />
+    <ClInclude Include="ImageConverter.h" />
+    <ClInclude Include="ImageConverter_p.h" />
+    <ClInclude Include="..\contrib\uchardet\src\JpCntx.h" />
+    <CustomBuild Include="QtAV\LibAVFilter.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">QtAV\LibAVFilter.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\LibAVFilter.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_LibAVFilter.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC QtAV\LibAVFilter.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_LibAVFilter.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">QtAV\LibAVFilter.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\LibAVFilter.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_LibAVFilter.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC QtAV\LibAVFilter.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_LibAVFilter.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="utils\Logger.h" />
+    <CustomBuild Include="QtAV\MediaIO.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">QtAV\MediaIO.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\MediaIO.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_MediaIO.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC QtAV\MediaIO.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_MediaIO.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">QtAV\MediaIO.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\MediaIO.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_MediaIO.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC QtAV\MediaIO.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_MediaIO.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="QtAV\private\MediaIO_p.h" />
+    <ClInclude Include="opengl\OpenGLHelper.h" />
+    <ClInclude Include="QtAV\OpenGLRendererBase.h" />
+    <ClInclude Include="QtAV\private\OpenGLRendererBase_p.h" />
+    <ClInclude Include="QtAV\OpenGLTypes.h" />
+    <CustomBuild Include="QtAV\OpenGLVideo.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">QtAV\OpenGLVideo.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\OpenGLVideo.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_OpenGLVideo.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC QtAV\OpenGLVideo.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_OpenGLVideo.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">QtAV\OpenGLVideo.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\OpenGLVideo.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_OpenGLVideo.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC QtAV\OpenGLVideo.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_OpenGLVideo.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="output\OutputSet.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">output\OutputSet.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 output\OutputSet.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_OutputSet.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC output\OutputSet.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_OutputSet.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">output\OutputSet.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 output\OutputSet.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_OutputSet.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC output\OutputSet.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_OutputSet.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="QtAV\Packet.h" />
+    <ClInclude Include="PacketBuffer.h" />
+    <ClInclude Include="subtitle\PlainText.h" />
+    <CustomBuild Include="QtAV\private\PlayerSubtitle.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">QtAV\private\PlayerSubtitle.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\private\PlayerSubtitle.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_PlayerSubtitle.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC QtAV\private\PlayerSubtitle.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_PlayerSubtitle.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">QtAV\private\PlayerSubtitle.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\private\PlayerSubtitle.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_PlayerSubtitle.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC QtAV\private\PlayerSubtitle.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_PlayerSubtitle.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="QtAV\QPainterRenderer.h" />
+    <ClInclude Include="QtAV\private\QPainterRenderer_p.h" />
+    <ClInclude Include="QtAV\QtAV.h" />
+    <ClInclude Include="QtAV\QtAV" />
+    <ClInclude Include="QtAV\QtAV_Global.h" />
+    <CustomBuild Include="opengl\ShaderManager.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">opengl\ShaderManager.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 opengl\ShaderManager.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_ShaderManager.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC opengl\ShaderManager.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_ShaderManager.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">opengl\ShaderManager.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 opengl\ShaderManager.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_ShaderManager.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC opengl\ShaderManager.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_ShaderManager.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="utils\SharedPtr.h" />
+    <ClInclude Include="QtAV\Statistics.h" />
+    <ClInclude Include="QtAV\SubImage.h" />
+    <ClInclude Include="opengl\SubImagesGeometry.h" />
+    <ClInclude Include="opengl\SubImagesRenderer.h" />
+    <CustomBuild Include="QtAV\Subtitle.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">QtAV\Subtitle.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\Subtitle.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_Subtitle.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC QtAV\Subtitle.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_Subtitle.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">QtAV\Subtitle.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\Subtitle.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_Subtitle.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC QtAV\Subtitle.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_Subtitle.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="QtAV\SubtitleFilter.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">QtAV\SubtitleFilter.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\SubtitleFilter.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_SubtitleFilter.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC QtAV\SubtitleFilter.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_SubtitleFilter.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">QtAV\SubtitleFilter.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\SubtitleFilter.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_SubtitleFilter.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC QtAV\SubtitleFilter.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_SubtitleFilter.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="QtAV\private\SubtitleProcessor.h" />
+    <ClInclude Include="QtAV\SurfaceInterop.h" />
+    <ClInclude Include="codec\video\SurfaceInteropCUDA.h" />
+    <ClInclude Include="directx\SurfaceInteropD3D9.h" />
+    <CustomBuild Include="QtAV\VideoCapture.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">QtAV\VideoCapture.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\VideoCapture.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_VideoCapture.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC QtAV\VideoCapture.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_VideoCapture.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">QtAV\VideoCapture.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\VideoCapture.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_VideoCapture.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC QtAV\VideoCapture.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_VideoCapture.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="QtAV\VideoDecoder.h" />
+    <ClInclude Include="codec\video\VideoDecoderFFmpegBase.h" />
+    <CustomBuild Include="codec\video\VideoDecoderFFmpegHW.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">codec\video\VideoDecoderFFmpegHW.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 codec\video\VideoDecoderFFmpegHW.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_VideoDecoderFFmpegHW.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC codec\video\VideoDecoderFFmpegHW.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_VideoDecoderFFmpegHW.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">codec\video\VideoDecoderFFmpegHW.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 codec\video\VideoDecoderFFmpegHW.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_VideoDecoderFFmpegHW.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC codec\video\VideoDecoderFFmpegHW.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_VideoDecoderFFmpegHW.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="codec\video\VideoDecoderFFmpegHW_p.h" />
+    <CustomBuild Include="QtAV\VideoEncoder.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">QtAV\VideoEncoder.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\VideoEncoder.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_VideoEncoder.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC QtAV\VideoEncoder.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_VideoEncoder.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">QtAV\VideoEncoder.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\VideoEncoder.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_VideoEncoder.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC QtAV\VideoEncoder.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_VideoEncoder.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="QtAV\VideoFormat.h" />
+    <ClInclude Include="QtAV\VideoFrame.h" />
+    <CustomBuild Include="QtAV\VideoFrameExtractor.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">QtAV\VideoFrameExtractor.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\VideoFrameExtractor.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_VideoFrameExtractor.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC QtAV\VideoFrameExtractor.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_VideoFrameExtractor.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">QtAV\VideoFrameExtractor.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\VideoFrameExtractor.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_VideoFrameExtractor.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC QtAV\VideoFrameExtractor.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_VideoFrameExtractor.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="QtAV\VideoOutput.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">QtAV\VideoOutput.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\VideoOutput.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_VideoOutput.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC QtAV\VideoOutput.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_VideoOutput.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">QtAV\VideoOutput.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\VideoOutput.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_VideoOutput.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC QtAV\VideoOutput.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_VideoOutput.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="QtAV\VideoRenderer.h" />
+    <ClInclude Include="QtAV\private\VideoRenderer_p.h" />
+    <ClInclude Include="QtAV\VideoShader.h" />
+    <CustomBuild Include="QtAV\VideoShaderObject.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">QtAV\VideoShaderObject.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\VideoShaderObject.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_VideoShaderObject.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC QtAV\VideoShaderObject.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_VideoShaderObject.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">QtAV\VideoShaderObject.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 QtAV\VideoShaderObject.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_VideoShaderObject.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC QtAV\VideoShaderObject.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_VideoShaderObject.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="QtAV\private\VideoShader_p.h" />
+    <CustomBuild Include="VideoThread.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">VideoThread.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 VideoThread.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_VideoThread.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC VideoThread.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_VideoThread.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">VideoThread.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 VideoThread.h -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_VideoThread.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC VideoThread.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_VideoThread.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="..\contrib\capi\capi.h" />
+    <ClInclude Include="cuda\cuda_api.h" />
+    <ClInclude Include="QtAV\dptr.h" />
+    <ClInclude Include="capi\egl_api.h" />
+    <ClInclude Include="QtAV\private\factory.h" />
+    <ClInclude Include="opengl\gl_api.h" />
+    <ClInclude Include="cuda\helper_cuda.h" />
+    <ClInclude Include="utils\internal.h" />
+    <ClInclude Include="QtAV\private\mkid.h" />
+    <ClInclude Include="..\contrib\uchardet\src\nsBig5Prober.h" />
+    <ClInclude Include="..\contrib\uchardet\src\nsCharSetProber.h" />
+    <ClInclude Include="..\contrib\uchardet\src\nsCodingStateMachine.h" />
+    <ClInclude Include="..\contrib\uchardet\src\nsEUCJPProber.h" />
+    <ClInclude Include="..\contrib\uchardet\src\nsEUCKRProber.h" />
+    <ClInclude Include="..\contrib\uchardet\src\nsEUCTWProber.h" />
+    <ClInclude Include="..\contrib\uchardet\src\nsEscCharsetProber.h" />
+    <ClInclude Include="..\contrib\uchardet\src\nsGB2312Prober.h" />
+    <ClInclude Include="..\contrib\uchardet\src\nsHebrewProber.h" />
+    <ClInclude Include="..\contrib\uchardet\src\nsLatin1Prober.h" />
+    <ClInclude Include="..\contrib\uchardet\src\nsMBCSGroupProber.h" />
+    <ClInclude Include="..\contrib\uchardet\src\nsPkgInt.h" />
+    <ClInclude Include="..\contrib\uchardet\src\nsSBCSGroupProber.h" />
+    <ClInclude Include="..\contrib\uchardet\src\nsSBCharSetProber.h" />
+    <ClInclude Include="..\contrib\uchardet\src\nsSJISProber.h" />
+    <ClInclude Include="..\contrib\uchardet\src\nsUTF8Prober.h" />
+    <ClInclude Include="..\contrib\uchardet\src\nsUniversalDetector.h" />
+    <ClInclude Include="..\contrib\uchardet\src\nscore.h" />
+    <ClInclude Include="cuda\dllapi\nv_inc.h" />
+    <ClInclude Include="QtAV\private\prepost.h" />
+    <ClInclude Include="..\contrib\uchardet\src\prmem.h" />
+    <ClInclude Include="utils\ring.h" />
+    <ClInclude Include="QtAV\private\singleton.h" />
+    <ClInclude Include="..\contrib\uchardet\src\uchardet.h" />
+    <ClInclude Include="QtAV\version.h" />
+    <ClInclude Include="output\audio\xaudio2_compat.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\AudioDecoderFFmpeg.moc">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">codec\audio\AudioDecoderFFmpeg.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 codec\audio\AudioDecoderFFmpeg.cpp -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\AudioDecoderFFmpeg.moc</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC codec\audio\AudioDecoderFFmpeg.cpp</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\AudioDecoderFFmpeg.moc;%(Outputs)</Outputs>
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\AudioDecoderFFmpeg.moc">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">codec\audio\AudioDecoderFFmpeg.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 codec\audio\AudioDecoderFFmpeg.cpp -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\AudioDecoderFFmpeg.moc</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC codec\audio\AudioDecoderFFmpeg.cpp</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\AudioDecoderFFmpeg.moc;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\QIODeviceIO.moc">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">io\QIODeviceIO.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 io\QIODeviceIO.cpp -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\QIODeviceIO.moc</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC io\QIODeviceIO.cpp</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\QIODeviceIO.moc;%(Outputs)</Outputs>
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\QIODeviceIO.moc">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">io\QIODeviceIO.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 io\QIODeviceIO.cpp -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\QIODeviceIO.moc</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC io\QIODeviceIO.cpp</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\QIODeviceIO.moc;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\VideoDecoderCUDA.moc">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">codec\video\VideoDecoderCUDA.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 codec\video\VideoDecoderCUDA.cpp -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\VideoDecoderCUDA.moc</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC codec\video\VideoDecoderCUDA.cpp</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\VideoDecoderCUDA.moc;%(Outputs)</Outputs>
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\VideoDecoderCUDA.moc">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">codec\video\VideoDecoderCUDA.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 codec\video\VideoDecoderCUDA.cpp -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\VideoDecoderCUDA.moc</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC codec\video\VideoDecoderCUDA.cpp</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\VideoDecoderCUDA.moc;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\VideoDecoderFFmpeg.moc">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">codec\video\VideoDecoderFFmpeg.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 codec\video\VideoDecoderFFmpeg.cpp -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\VideoDecoderFFmpeg.moc</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC codec\video\VideoDecoderFFmpeg.cpp</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\VideoDecoderFFmpeg.moc;%(Outputs)</Outputs>
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\VideoDecoderFFmpeg.moc">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">codec\video\VideoDecoderFFmpeg.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 codec\video\VideoDecoderFFmpeg.cpp -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\VideoDecoderFFmpeg.moc</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC codec\video\VideoDecoderFFmpeg.cpp</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\VideoDecoderFFmpeg.moc;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\VideoEncoderFFmpeg.moc">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">codec\video\VideoEncoderFFmpeg.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 codec\video\VideoEncoderFFmpeg.cpp -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\VideoEncoderFFmpeg.moc</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC codec\video\VideoEncoderFFmpeg.cpp</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\VideoEncoderFFmpeg.moc;%(Outputs)</Outputs>
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\VideoEncoderFFmpeg.moc">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">codec\video\VideoEncoderFFmpeg.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -DBUILD_QTAV_LIB -DBUILD_UCHARDET -DQTAV_HAVE_CAPI=1 -DQTAV_HAVE_EGL_CAPI=1 -D__STDC_CONSTANT_MACROS -DQTAV_HAVE_XAUDIO2=1 -DQTAV_HAVE_CUDA=1 -DQTAV_HAVE_QT_EGL=1 -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_MSC_VER=1600 -D_WIN32 -I&quot;$(QTDIR)\include&quot; -I&quot;.&quot; -I&quot;E:\Code\QtOpenSource\music\QtAV&quot; -I&quot;QtAV&quot; -I&quot;..\contrib\uchardet\src&quot; -I&quot;..\contrib\capi&quot; -I&quot;..\contrib\dxsdk&quot; -I&quot;compat\msvc&quot; -I&quot;cuda&quot; -I&quot;cuda\dllapi&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtANGLE&quot; -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd&quot; -I$(QTDIR)\mkspecs\win32-msvc2010 codec\video\VideoEncoderFFmpeg.cpp -o E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\VideoEncoderFFmpeg.moc</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC codec\video\VideoEncoderFFmpeg.cpp</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\VideoEncoderFFmpeg.moc;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AVClock.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AVClock.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AVDecoder.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AVDecoder.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AVDemuxThread.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AVDemuxThread.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AVDemuxer.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AVDemuxer.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AVEncoder.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AVEncoder.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AVMuxer.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AVMuxer.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AVPlayer.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AVPlayer.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AVThread.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AVThread.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AVTranscoder.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AVTranscoder.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AudioEncoder.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AudioEncoder.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AudioOutput.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AudioOutput.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AudioOutputBackend.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AudioOutputBackend.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_AudioThread.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_AudioThread.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_EncodeFilter.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_EncodeFilter.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_Filter.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_Filter.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_FrameReader.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_FrameReader.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_GLSLFilter.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_GLSLFilter.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_LibAVFilter.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_LibAVFilter.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_MediaIO.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_MediaIO.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_OpenGLVideo.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_OpenGLVideo.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_OutputSet.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_OutputSet.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_PlayerSubtitle.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_PlayerSubtitle.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_ShaderManager.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_ShaderManager.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_Subtitle.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_Subtitle.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_SubtitleFilter.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_SubtitleFilter.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_VideoCapture.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_VideoCapture.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_VideoDecoderFFmpegHW.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_VideoDecoderFFmpegHW.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_VideoEncoder.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_VideoEncoder.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_VideoFrameExtractor.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_VideoFrameExtractor.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_VideoOutput.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_VideoOutput.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_VideoShaderObject.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_VideoShaderObject.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAV\moc_VideoThread.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.moc\5.1.1\QtAVd\moc_VideoThread.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.rcc\5.1.1\QtAV\qrc_QtAV.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.rcc\5.1.1\QtAVd\qrc_QtAV.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.rcc\5.1.1\QtAV\qrc_shaders.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\Code\QtOpenSource\??\QtAV\.rcc\5.1.1\QtAVd\qrc_shaders.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="i18n\QtAV.ts" />
+    <None Include="i18n\QtAV_zh_CN.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="QtAV.qrc">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">QtAV.qrc;QtAV.svg;i18n\QtAV_zh_CN.qm;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\rcc.exe -name QtAV QtAV.qrc -o E:\Code\QtOpenSource\??\QtAV\.rcc\5.1.1\QtAV\qrc_QtAV.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">RCC QtAV.qrc</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.rcc\5.1.1\QtAV\qrc_QtAV.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">QtAV.qrc;QtAV.svg;i18n\QtAV_zh_CN.qm;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\rcc.exe -name QtAV QtAV.qrc -o E:\Code\QtOpenSource\??\QtAV\.rcc\5.1.1\QtAVd\qrc_QtAV.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">RCC QtAV.qrc</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.rcc\5.1.1\QtAVd\qrc_QtAV.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <None Include="QtAV.svg" />
+    <None Include="i18n\QtAV_zh_CN.qm" />
+    <None Include="shaders\packed.f.glsl" />
+    <None Include="shaders\planar.f.glsl" />
+    <CustomBuild Include="shaders\shaders.qrc">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">shaders\packed.f.glsl;shaders\planar.f.glsl;shaders\shaders.qrc;shaders\video.vert;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">$(QTDIR)\bin\rcc.exe -name shaders shaders\shaders.qrc -o E:\Code\QtOpenSource\??\QtAV\.rcc\5.1.1\QtAV\qrc_shaders.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">RCC shaders\shaders.qrc</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.rcc\5.1.1\QtAV\qrc_shaders.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">shaders\packed.f.glsl;shaders\planar.f.glsl;shaders\shaders.qrc;shaders\video.vert;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">$(QTDIR)\bin\rcc.exe -name shaders shaders\shaders.qrc -o E:\Code\QtOpenSource\??\QtAV\.rcc\5.1.1\QtAVd\qrc_shaders.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">RCC shaders\shaders.qrc</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">E:\Code\QtOpenSource\??\QtAV\.rcc\5.1.1\QtAVd\qrc_shaders.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <None Include="shaders\video.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="E:\Code\QtOpenSource\music\QtAV\src\QtAV_resource.rc">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ResourceCompile>
+    <ResourceCompile Include="E:\Code\QtOpenSource\music\QtAV\src\QtAVd_resource.rc">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ResourceCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

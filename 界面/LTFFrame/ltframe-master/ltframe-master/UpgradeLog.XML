@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="LTFrameExmaple">
+</Property><Property Name="解决方案文件" Value="E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\LTFrameExmaple.sln">
+</Property><Property Name="Date" Value="Wednesday, November 08, 2017">
+</Property><Property Name="Time" Value="19:51 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="LTFrameExmaple.sln" Description="文件已成功备份为 E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\LTFrameExmaple.sln.old">
+</Event><Event ErrorLevel="0" Project="LTFrameExmaple" Source="LTFrameExmaple\LTFrameExmaple.vcproj" Description="Converting project file 'E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\LTFrameExmaple\LTFrameExmaple.vcproj'.">
+</Event><Event ErrorLevel="1" Project="LTFrameExmaple" Source="LTFrameExmaple\LTFrameExmaple.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="LTFrameExmaple" Source="LTFrameExmaple\LTFrameExmaple.vcproj" Description="Done converting to new project file 'E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\LTFrameExmaple\LTFrameExmaple.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="LTFrameExmaple" Source="LTFrameExmaple\LTFrameExmaple.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="MemoryManager" Source="MemoryManager\MemoryManager.vcproj" Description="Converting project file 'E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\MemoryManager\MemoryManager.vcproj'.">
+</Event><Event ErrorLevel="1" Project="MemoryManager" Source="MemoryManager\MemoryManager.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="MemoryManager" Source="MemoryManager\MemoryManager.vcproj" Description="Done converting to new project file 'E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\MemoryManager\MemoryManager.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="MemoryManager" Source="MemoryManager\MemoryManager.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Plugin" Source="Plugin\Plugin.vcproj" Description="Converting project file 'E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\Plugin\Plugin.vcproj'.">
+</Event><Event ErrorLevel="1" Project="Plugin" Source="Plugin\Plugin.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="Plugin" Source="Plugin\Plugin.vcproj" Description="Done converting to new project file 'E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\Plugin\Plugin.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="Plugin" Source="Plugin\Plugin.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DragDrop" Source="DragDrop\DragDrop.vcproj" Description="Converting project file 'E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\DragDrop\DragDrop.vcproj'.">
+</Event><Event ErrorLevel="1" Project="DragDrop" Source="DragDrop\DragDrop.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="DragDrop" Source="DragDrop\DragDrop.vcproj" Description="Done converting to new project file 'E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\DragDrop\DragDrop.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="DragDrop" Source="DragDrop\DragDrop.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="OLEDragDrop" Source="OLEDragDrop\OLEDragDrop.vcproj" Description="Converting project file 'E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\OLEDragDrop\OLEDragDrop.vcproj'.">
+</Event><Event ErrorLevel="1" Project="OLEDragDrop" Source="OLEDragDrop\OLEDragDrop.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="OLEDragDrop" Source="OLEDragDrop\OLEDragDrop.vcproj" Description="Done converting to new project file 'E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\OLEDragDrop\OLEDragDrop.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="OLEDragDrop" Source="OLEDragDrop\OLEDragDrop.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Transparent" Source="Transparent\Transparent.vcproj" Description="Converting project file 'E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\Transparent\Transparent.vcproj'.">
+</Event><Event ErrorLevel="1" Project="Transparent" Source="Transparent\Transparent.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="Transparent" Source="Transparent\Transparent.vcproj" Description="Done converting to new project file 'E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\Transparent\Transparent.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="Transparent" Source="Transparent\Transparent.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ModelWindow" Source="ModelWindow\ModelWindow.vcproj" Description="Converting project file 'E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\ModelWindow\ModelWindow.vcproj'.">
+</Event><Event ErrorLevel="1" Project="ModelWindow" Source="ModelWindow\ModelWindow.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="ModelWindow" Source="ModelWindow\ModelWindow.vcproj" Description="Done converting to new project file 'E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\ModelWindow\ModelWindow.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="ModelWindow" Source="ModelWindow\ModelWindow.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="JavaScript" Source="JavaScript\JavaScript.vcproj" Description="Converting project file 'E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\JavaScript\JavaScript.vcproj'.">
+</Event><Event ErrorLevel="1" Project="JavaScript" Source="JavaScript\JavaScript.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="JavaScript" Source="JavaScript\JavaScript.vcproj" Description="Done converting to new project file 'E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\JavaScript\JavaScript.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="JavaScript" Source="JavaScript\JavaScript.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Localstorage" Source="Localstorage\Localstorage.vcproj" Description="Converting project file 'E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\Localstorage\Localstorage.vcproj'.">
+</Event><Event ErrorLevel="1" Project="Localstorage" Source="Localstorage\Localstorage.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="Localstorage" Source="Localstorage\Localstorage.vcproj" Description="Done converting to new project file 'E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\Localstorage\Localstorage.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="Localstorage" Source="Localstorage\Localstorage.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Canvas" Source="Canvas\Canvas.vcproj" Description="Converting project file 'E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\Canvas\Canvas.vcproj'.">
+</Event><Event ErrorLevel="1" Project="Canvas" Source="Canvas\Canvas.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="Canvas" Source="Canvas\Canvas.vcproj" Description="Done converting to new project file 'E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\Canvas\Canvas.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="Canvas" Source="Canvas\Canvas.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Ipad" Source="Ipad\Ipad.vcproj" Description="Converting project file 'E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\Ipad\Ipad.vcproj'.">
+</Event><Event ErrorLevel="1" Project="Ipad" Source="Ipad\Ipad.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="Ipad" Source="Ipad\Ipad.vcproj" Description="Done converting to new project file 'E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\Ipad\Ipad.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="Ipad" Source="Ipad\Ipad.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Game" Source="Game\Game.vcproj" Description="Converting project file 'E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\Game\Game.vcproj'.">
+</Event><Event ErrorLevel="1" Project="Game" Source="Game\Game.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="Game" Source="Game\Game.vcproj" Description="Done converting to new project file 'E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\Game\Game.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="Game" Source="Game\Game.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CrossDomain" Source="CrossDomain\CrossDomain.vcproj" Description="Converting project file 'E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\CrossDomain\CrossDomain.vcproj'.">
+</Event><Event ErrorLevel="1" Project="CrossDomain" Source="CrossDomain\CrossDomain.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="CrossDomain" Source="CrossDomain\CrossDomain.vcproj" Description="Done converting to new project file 'E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\CrossDomain\CrossDomain.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="CrossDomain" Source="CrossDomain\CrossDomain.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="LTFrameExmaple.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="LTFrameExmaple.sln" Description="Converted">
+</Event></UpgradeLog>

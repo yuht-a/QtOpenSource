@@ -1,0 +1,30 @@
+﻿生成启动时间为 2017-11-09 9:20:02 AM。
+     1>项目“E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\OLEDragDrop\OLEDragDrop.vcxproj”在节点 6 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\OLEDragDrop.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../include/ /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\OLEDragDrop.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../include/ /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\OLEDragDrop.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt OLEDragDrop.cpp UIClass.cpp
+         OLEDragDrop.cpp
+         UIClass.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\OLEDragDrop.res" OLEDragDrop.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\Release\OLEDragDrop.exe" /INCREMENTAL:NO /NOLOGO ../include/LTFrame.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\OLEDragDrop.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\Release\OLEDragDrop.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\Release\OLEDragDrop.lib" /MACHINE:X86 Release\OLEDragDrop.res
+         Release\OLEDragDrop.obj
+         Release\stdafx.obj
+         Release\UIClass.obj
+         正在生成代码
+         已完成代码的生成
+         OLEDragDrop.vcxproj -> E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\Release\OLEDragDrop.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\Release\OLEDragDrop.exe;#1" /manifest Release\OLEDragDrop.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\OLEDragDrop.unsuccessfulbuild”。
+         正在对“Release\OLEDragDrop.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\OLEDragDrop\OLEDragDrop.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.63

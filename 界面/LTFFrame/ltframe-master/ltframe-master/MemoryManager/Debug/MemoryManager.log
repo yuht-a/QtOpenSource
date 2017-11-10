@@ -1,0 +1,41 @@
+﻿生成启动时间为 2017-11-08 7:53:14 PM。
+     1>项目“E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\MemoryManager\MemoryManager.vcxproj”在节点 4 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\MemoryManager.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../include/ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\MemoryManager.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../include/ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\MemoryManager.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt MemoryManager.cpp UIClass.cpp
+         UIClass.cpp
+     1>e:\code\qtopensource\界面\ltfframe\ltframe-master\ltframe-master\memorymanager\uiclass.cpp(119): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(451) : 参见“_itoa”的声明
+         MemoryManager.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\MemoryManager.res" MemoryManager.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\MemoryManager.exe.embed.manifest.res" Debug\MemoryManager_manifest.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\Debug\MemoryManager.exe" /INCREMENTAL /NOLOGO ../include/LTFrame.lib Psapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\MemoryManager.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\Debug\MemoryManager.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\Debug\MemoryManager.lib" /MACHINE:X86 Debug\MemoryManager.res
+         Debug\MemoryManager.exe.embed.manifest.res
+         Debug\MemoryManager.obj
+         Debug\stdafx.obj
+         Debug\UIClass.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\MemoryManager.exe.embed.manifest" /manifest Debug\MemoryManager.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\MemoryManager.exe.embed.manifest.res" Debug\MemoryManager_manifest.rc 
+       LinkEmbedManifest:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\Debug\MemoryManager.exe" /INCREMENTAL /NOLOGO ../include/LTFrame.lib Psapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\MemoryManager.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\Debug\MemoryManager.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\Debug\MemoryManager.lib" /MACHINE:X86 Debug\MemoryManager.res
+         Debug\MemoryManager.exe.embed.manifest.res
+         Debug\MemoryManager.obj
+         Debug\stdafx.obj
+         Debug\UIClass.obj
+         MemoryManager.vcxproj -> E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\Debug\MemoryManager.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\MemoryManager.unsuccessfulbuild”。
+         正在对“Debug\MemoryManager.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\MemoryManager\MemoryManager.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:14.55

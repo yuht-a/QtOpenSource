@@ -1,0 +1,43 @@
+﻿生成启动时间为 2017-11-09 8:01:23 PM。
+     1>项目“E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\CrossDomain\CrossDomain.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\CrossDomain.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../include/ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\CrossDomain.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../include/ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\CrossDomain.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CrossDomain.cpp UIClass.cpp
+         UIClass.cpp
+         CrossDomain.cpp
+         正在生成代码...
+       ResourceCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\Debug\CrossDomain.exe" /INCREMENTAL /NOLOGO /LIBPATH:../include/LTFramed.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\CrossDomain.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\Debug\CrossDomain.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\Debug\CrossDomain.lib" /MACHINE:X86 Debug\CrossDomain.res
+         Debug\CrossDomain.exe.embed.manifest.res
+         Debug\CrossDomain.obj
+         Debug\stdafx.obj
+         Debug\UIClass.obj
+     1>UIClass.obj : error LNK2019: 无法解析的外部符号 "__int64 __cdecl JsUndefined(void)" (?JsUndefined@@YA_JXZ)，该符号在函数 "__int64 __fastcall DragWindowFun(void * *)" (?DragWindowFun@@YI_JPAPAX@Z) 中被引用
+     1>UIClass.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall LTFrameView::MessageLoop(void)" (?MessageLoop@LTFrameView@@QAEXXZ)，该符号在函数 "public: __thiscall UIClass::UIClass(wchar_t *)" (??0UIClass@@QAE@PA_W@Z) 中被引用
+     1>UIClass.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall LTFrameView::EnableDragFrameChangeSize(bool)" (?EnableDragFrameChangeSize@LTFrameView@@QAEX_N@Z)，该符号在函数 "public: __thiscall UIClass::UIClass(wchar_t *)" (??0UIClass@@QAE@PA_W@Z) 中被引用
+     1>UIClass.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall LTFrameView::loadFile(wchar_t const *)" (?loadFile@LTFrameView@@QAEXPB_W@Z)，该符号在函数 "public: __thiscall UIClass::UIClass(wchar_t *)" (??0UIClass@@QAE@PA_W@Z) 中被引用
+     1>UIClass.obj : error LNK2019: 无法解析的外部符号 "public: struct HWND__ * __thiscall LTFrameView::windowHandle(void)const " (?windowHandle@LTFrameView@@QBEPAUHWND__@@XZ)，该符号在函数 "public: __thiscall UIClass::UIClass(wchar_t *)" (??0UIClass@@QAE@PA_W@Z) 中被引用
+     1>UIClass.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall LTFrameView::BindUserFunction(char const *,__int64 (__fastcall*)(void * *),unsigned int)" (?BindUserFunction@LTFrameView@@QAEXPBDP6I_JPAPAX@ZI@Z)，该符号在函数 "public: __thiscall UIClass::UIClass(wchar_t *)" (??0UIClass@@QAE@PA_W@Z) 中被引用
+     1>UIClass.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall LTFrameView::LTFrameView(class I_LTFRAME_IWebView *,wchar_t const *,struct HWND__ *,unsigned long,int,int,int,int,struct HICON__ *)" (??0LTFrameView@@QAE@PAVI_LTFRAME_IWebView@@PB_WPAUHWND__@@KHHHHPAUHICON__@@@Z)，该符号在函数 "public: __thiscall UIClass::UIClass(wchar_t *)" (??0UIClass@@QAE@PA_W@Z) 中被引用
+     1>UIClass.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall I_LTFRAME_IWebView::OnDrop(struct IDataObject *,unsigned long,struct _POINTL,unsigned long *)" (?OnDrop@I_LTFRAME_IWebView@@UAE_NPAUIDataObject@@KU_POINTL@@PAK@Z)
+     1>UIClass.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall I_LTFRAME_IWebView::OnDragLeave(void)" (?OnDragLeave@I_LTFRAME_IWebView@@UAE_NXZ)
+     1>UIClass.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall I_LTFRAME_IWebView::OnDragOver(unsigned long,struct _POINTL,unsigned long *)" (?OnDragOver@I_LTFRAME_IWebView@@UAE_NKU_POINTL@@PAK@Z)
+     1>UIClass.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall I_LTFRAME_IWebView::OnDragEnter(struct IDataObject *,unsigned long,struct _POINTL,unsigned long *)" (?OnDragEnter@I_LTFRAME_IWebView@@UAE_NPAUIDataObject@@KU_POINTL@@PAK@Z)
+     1>UIClass.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall I_LTFRAME_IWebView::OnFinalMessage(void)" (?OnFinalMessage@I_LTFRAME_IWebView@@UAEXXZ)
+     1>UIClass.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall LTFrameView::~LTFrameView(void)" (??1LTFrameView@@QAE@XZ)，该符号在函数 "public: void * __thiscall LTFrameView::`scalar deleting destructor'(unsigned int)" (??_GLTFrameView@@QAEPAXI@Z) 中被引用
+     1>UIClass.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall LTFrameView::CloseWindow(void)" (?CloseWindow@LTFrameView@@QAEXXZ)，该符号在函数 "public: void __thiscall UIClass::QuitApp(void)" (?QuitApp@UIClass@@QAEXXZ) 中被引用
+     1>UIClass.obj : error LNK2019: 无法解析的外部符号 "public: long __thiscall LTFrameView::HandleMessage(struct HWND__ *,unsigned int,unsigned int,long)" (?HandleMessage@LTFrameView@@QAEJPAUHWND__@@IIJ@Z)，该符号在函数 "public: virtual long __thiscall UIClass::HandleUserMessage(struct HWND__ *,unsigned int,unsigned int,long)" (?HandleUserMessage@UIClass@@UAEJPAUHWND__@@IIJ@Z) 中被引用
+     1>E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\Debug\CrossDomain.exe : fatal error LNK1120: 15 个无法解析的外部命令
+     1>已完成生成项目“E:\Code\QtOpenSource\界面\LTFFrame\ltframe-master\ltframe-master\CrossDomain\CrossDomain.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:06.94
